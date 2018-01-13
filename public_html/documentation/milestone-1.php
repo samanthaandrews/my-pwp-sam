@@ -28,12 +28,12 @@
 		<p>45 years old</p>
 		<p>Michelle is a full-stack developer and UI/UX designer. She has been coding professionally for over 20 years.
 			She is currently the head of the design and development team at a mid-size tech company in Albuquerque. She is
-			looking to hire a junior full stack developer to fill a new role in the growing company.</p>
+			looking to hire a junior full-stack developer to fill a new role in the growing company.</p>
 		<p>Michelle has hired many employees over her career. She looks for individuals who can demonstrate their
 			eagerness to learn and ability to adapt to change. She is looking for someone who wants to grow with the
 			company for at least 2-5 years. She likes clean, easy-to-read code and functional, streamlined design.</p>
 		<p>After looking at my site, Michelle will use the contact form to request a time to interview me for the junior
-			full stack developer role.</p>
+			full-stack developer role.</p>
 	</body>
 </html>
 
