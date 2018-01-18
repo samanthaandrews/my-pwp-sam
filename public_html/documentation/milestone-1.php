@@ -32,7 +32,8 @@
 		</p>
 		<p><strong>Technology:</strong> Michelle uses a 2017 MacBook pro. In the office it powers two retina display
 			monitors.</p>
-		<p><strong>Attitudes and Behaviors:</strong> Organized, but has a lot going on. Relies heavily on portfolio and
+		<p><strong>Attitudes and Behaviors:</strong> Organized, but has a lot going on. Relies heavily on portfolio
+			websites and
 			GitHub repositories in making hiring decisions. Doesn't attend as many networking events and meetups as she
 			would like, so
 			she is more likely to hire someone through a referral from a friend or colleague. In her free time, she likes
@@ -40,7 +41,7 @@
 		<p><strong>Frustrations and Needs:</strong> Michelle has hired many employees over her career. She looks for
 			individuals who can demonstrate their eagerness to learn and ability to adapt to change. For this position, she
 			is looking for
-			someone who wants to grow with the company for at least 2-5 years. She likes clean, easy-to-read code and
+			someone who wants to grow with the company for two to five years. She likes clean, easy-to-read code and
 			functional, streamlined design.</p>
 		<p><strong>Goals:</strong> Michelle is looking to hire a junior full-stack developer with two to three years
 			experience. The company is growing, taking on more clients than ever, so she is hoping to hire someone quickly.
