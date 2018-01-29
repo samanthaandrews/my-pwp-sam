@@ -1,16 +1,8 @@
-<?php
-/**
- * Created by PhpStorm.
- * User: sam
- * Date: 1/13/18
- * Time: 9:55 AM
- */
-?>
 <!DOCTYPE html>
 <html lang="en">
 	<head>
 		<meta charset="UTF-8">
-		<title>Sam's Personal Website Project</title>
+		<title>Milestone - 1</title>
 	</head>
 	<body>
 		<h1>Sam's Personal Website - Milestone 1</h1>
