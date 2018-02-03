@@ -22,3 +22,20 @@ Overall you did a great job. Keep up the good work!
 
 ### Grade
 Tier IV https://bootcamp-coders.cnm.edu/projects/personal/rubric/
+
+## Milestone 2&alpha; Feedback
+I love the minimalistic style that you're going for - this could be absolutely beautiful and I'm looking forward to seeing your design choices going forward. Your content and UI design ideas are clearly defined and these wireframes are well done.
+
+Since typography will be prominent, you may want to consider using a web type service such as [Google Fonts](https://fonts.google.com/) or [Adobe Web Fonts](https://edgewebfonts.adobe.com/). If there is a specific font/typeface that you would like to use (and you have the files and license to do so), be sure you have it in `.woff`, `.woff2` and `.ttf` format and it can be easily added to your stylesheet. More info on that here: https://bootcamp-coders.cnm.edu/class-materials/css/css-advanced.php#font
+
+[FancyBox3](http://fancyapps.com/fancybox/3/) is a great tool for creating lightbox-style image galleries. It's responsive, touch/swipe enabled and fairly easy to use. I believe this is also the same tool Sara Ruth used on her site as well.
+
+Your directory structure and code look great. Just keep in mind that going forward it's not good practice to set `width` on images in the HTML, but best to use CSS for that. 
+
+Build your PWP in a file named `index.php` inside `/public_html`. CSS, images, and JS directories should all be siblings to `/documentation.` We won't be using the `/documentation` directory any longer.
+
+Your Milestone 1 passes at [Tier IV](https://bootcamp-coders.cnm.edu/projects/personal/rubric/). You're clear to begin development! 
+
+### Edits &amp; Suggestions
+- Creating links to other regions on the same page is easily done using this method here: https://goo.gl/7FVeFx
+- [FontAwesome](https://fontawesome.com/) is a great resource for free iconography.
