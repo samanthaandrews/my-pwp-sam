@@ -1,0 +1,20 @@
+h1 {
+	font-family: Bebas;
+}
+
+h2 {
+	font-family: "Bebas";
+}
+
+p {
+	font-family: "Bitstream Vera Sans Mono";
+}
+
+.welcome {
+	background-color: rgb(57, 113, 178);
+	height: 100vh;
+}
+
+.main-menu {
+
+}
