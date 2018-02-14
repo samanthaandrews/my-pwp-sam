@@ -29,7 +29,7 @@
 		<div class="welcome">
 			<div class="container">
 				<div class="row">
-					<h1>SAMANTHA ANDREWS</h1>
+					<h1>SAMANTHA <br> ANDREWS</h1>
 				</div>
 				<div class="row main-menu">
 					<h2 class="underline-development">DEVELOPMENT</h2>
@@ -43,27 +43,35 @@
 			<div class="container">
 				<div class="row">
 					<div class="col development-title">
-						<h1>DEVELOP&#45;MENT</h1>
+						<h1>DEVELOP&#45;<br>MENT</h1>
 					</div>
-					<div class="col development-description">
-						<p>Capstone description</p>
+				</div>
+				<div class="col development-description">
+					<p>Capstone description</p>
+				</div>
+				<div class="row coding-skills">
+					<p>HTML5</p>
+					<p>CSS3</p>
+					<p>Javascript</p>
+					<p>PHP</p>
+					<p>mySQL</p>
+				</div>
+
+			</div>
+		</div>
+		<div class="design">
+			<div class="container">
+				<div class="row">
+					<div class="col design-title">
+						<h1>DESIGN</h1>
 					</div>
 				</div>
 			</div>
 		</div>
-			<div class="design">
-				<div class="container">
-					<div class="row">
-						<div class="col design-title">
-							<h1>DESIGN</h1>
-						</div>
-					</div>
-				</div>
-			</div>
-			<div class="writing">
-				<div class="container">
-					<div class="row">
-						<div class="col writing-title">
+		<div class="writing">
+			<div class="container">
+				<div class="row">
+					<div class="col writing-title">
 						<h1>WRITING</h1>
 					</div>
 					<div class="col">
@@ -73,18 +81,18 @@
 					</div>
 				</div>
 			</div>
-			</div>
-			<div class="contact">
-				<div class="container">
-					<div class="row">
-						<div class="col contact-title">
+		</div>
+		<div class="contact">
+			<div class="container">
+				<div class="row">
+					<div class="col contact-title">
 						<h1>CONTACT</h1>
-						</div>
+					</div>
 					<div class="col">
 						<p>My personal philosophy????</p>
 					</div>
-					</div>
 				</div>
 			</div>
+		</div>
 	</body>
 </html>

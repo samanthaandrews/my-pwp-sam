@@ -6,7 +6,7 @@ h2 {
 	font-family: "Bebas";
 	margin-left: 1rem;
 	margin-right: 1rem;
-	margin-top: 2rem;
+	margin-top: 3rem;
 }
 
 p {
@@ -16,6 +16,7 @@ p {
 .welcome {
 	background-color: rgb(57, 113, 178);
 	height: 100vh;
+	padding: 2em;
 }
 
 .underline-development {
@@ -37,45 +38,62 @@ p {
 .development {
 	background-color: rgb(240, 187, 31);
 	height: 100vh;
+	padding: 2em;
+}
+
+.development-title {
+	text-align: right;
 }
 
 .design {
 	background-color: rgb(255, 255, 231);
 	height: 100vh;
+	padding: 2em;
 }
 
 .writing {
 	background-color: rgb(223, 60, 57);
 	height: 100vh;
+	padding: 2em;
 }
 
 .contact {
 	background-color: rgb(228, 130, 178);
 	height: 100vh;
+	padding: 2em;
 }
 
 @media all {
 	h1 {
 		font-size: 10em;
 	}
-
 	h2 {
-		font-size: 4em;
+		font-size: 3em;
+	}
+	p {
+		font-size: 2em;
 	}
 }
 	@media all and (max-width: 1000px) {
 		h1 {
-			font-size: 5em;
+			font-size: 6em;
 		}
 		h2 {
-			font-size: 3em;
+			font-size: 2.5em;
 		}
+		p {
+			font-size: 1.5em;
+		}
+
 	}
 	@media all and (max-width: 500px) {
 		h1 {
-			font-size: 3em;
+			font-size: 4em;
 		}
 		h2 {
+			font-size: 2em;
+		}
+		p {
 			font-size: 1em;
 		}
 	}
