@@ -27,17 +27,64 @@
 
 	<body>
 		<div class="welcome">
-		<div class="container">
-			<div class="row">
-				<h1>SAMANTHA ANDREWS</h1>
-			</div>
+			<div class="container">
+				<div class="row">
+					<h1>SAMANTHA ANDREWS</h1>
+				</div>
 				<div class="row main-menu">
-					<h2>DEVELOPMENT</h2>
-					<h2>DESIGN</h2>
-					<h2>WRITING</h2>
-					<h2>CONTACT</h2>
+					<h2 class="underline-development">DEVELOPMENT</h2>
+					<h2 class="underline-design">DESIGN</h2>
+					<h2 class="underline-writing">WRITING</h2>
+					<h2 class="underline-contact">CONTACT</h2>
+				</div>
 			</div>
 		</div>
-	</div>
+		<div class="development">
+			<div class="container">
+				<div class="row">
+					<div class="col development-title">
+						<h1>DEVELOP&#45;MENT</h1>
+					</div>
+					<div class="col development-description">
+						<p>Capstone description</p>
+					</div>
+				</div>
+			</div>
+		</div>
+			<div class="design">
+				<div class="container">
+					<div class="row">
+						<div class="col design-title">
+							<h1>DESIGN</h1>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="writing">
+				<div class="container">
+					<div class="row">
+						<div class="col writing-title">
+						<h1>WRITING</h1>
+					</div>
+					<div class="col">
+						<p>Link to article</p>
+						<p>Link to article</p>
+						<p>Link to article</p>
+					</div>
+				</div>
+			</div>
+			</div>
+			<div class="contact">
+				<div class="container">
+					<div class="row">
+						<div class="col contact-title">
+						<h1>CONTACT</h1>
+						</div>
+					<div class="col">
+						<p>My personal philosophy????</p>
+					</div>
+					</div>
+				</div>
+			</div>
 	</body>
 </html>

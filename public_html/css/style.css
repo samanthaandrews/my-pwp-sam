@@ -4,6 +4,9 @@ h1 {
 
 h2 {
 	font-family: "Bebas";
+	margin-left: 1rem;
+	margin-right: 1rem;
+	margin-top: 2rem;
 }
 
 p {
@@ -15,6 +18,64 @@ p {
 	height: 100vh;
 }
 
-.main-menu {
-
+.underline-development {
+	border-bottom: 0.3rem solid rgb(240, 187, 31);
 }
+
+.underline-design {
+	border-bottom: 0.3rem solid rgb(255, 255, 231);
+}
+
+.underline-writing {
+	border-bottom: 0.3rem solid rgb(223, 60, 57);
+}
+
+.underline-contact {
+	border-bottom: 0.3rem solid rgb(228, 130, 178);
+}
+
+.development {
+	background-color: rgb(240, 187, 31);
+	height: 100vh;
+}
+
+.design {
+	background-color: rgb(255, 255, 231);
+	height: 100vh;
+}
+
+.writing {
+	background-color: rgb(223, 60, 57);
+	height: 100vh;
+}
+
+.contact {
+	background-color: rgb(228, 130, 178);
+	height: 100vh;
+}
+
+@media all {
+	h1 {
+		font-size: 10em;
+	}
+
+	h2 {
+		font-size: 4em;
+	}
+}
+	@media all and (max-width: 1000px) {
+		h1 {
+			font-size: 5em;
+		}
+		h2 {
+			font-size: 3em;
+		}
+	}
+	@media all and (max-width: 500px) {
+		h1 {
+			font-size: 3em;
+		}
+		h2 {
+			font-size: 1em;
+		}
+	}
