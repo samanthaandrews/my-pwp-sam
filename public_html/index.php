@@ -28,14 +28,20 @@
 	<body>
 		<div class="welcome">
 			<div class="container">
+				<h1>SAMANTHA <br> ANDREWS</h1>
 				<div class="row">
-					<h1>SAMANTHA <br> ANDREWS</h1>
-				</div>
-				<div class="row main-menu">
-					<h2 class="underline-development">DEVELOPMENT</h2>
-					<h2 class="underline-design">DESIGN</h2>
-					<h2 class="underline-writing">WRITING</h2>
-					<h2 class="underline-contact">CONTACT</h2>
+					<div class="col-md-3 text-center">
+						<h2><span class="underline-development">DEVELOPMENT</span></h2>
+					</div>
+					<div class="col-md-3 text-center ">
+						<h2><span class="underline-design">DESIGN</span></h2>
+					</div>
+					<div class="col-md-3 text-center">
+						<h2><span class="underline-writing">WRITING</span></h2>
+					</div>
+					<div class="col-md-3 text-center">
+						<h2><span class="underline-contact">CONTACT</span></h2>
+					</div>
 				</div>
 			</div>
 		</div>
@@ -50,11 +56,21 @@
 					<p>Capstone description</p>
 				</div>
 				<div class="row coding-skills">
+					<div class="col technical-skill">
 					<p>HTML5</p>
+					</div>
+					<div class="col technical-skill">
 					<p>CSS3</p>
+					</div>
+					<div class="col technical-skill">
 					<p>Javascript</p>
+					</div>
+					<div class="col technical-skill">
 					<p>PHP</p>
+					</div>
+					<div class="col technical-skill">
 					<p>mySQL</p>
+					</div>
 				</div>
 
 			</div>
@@ -71,17 +87,15 @@
 		<div class="writing">
 			<div class="container">
 				<div class="row">
-					<div class="col writing-title">
+						<p>Link to article</p>
+						<p>Link to article</p>
+						<p>Link to article</p>
+				</div>
+					<div class="writing-title d-flex-row">
 						<h1>WRITING</h1>
-					</div>
-					<div class="col">
-						<p>Link to article</p>
-						<p>Link to article</p>
-						<p>Link to article</p>
 					</div>
 				</div>
 			</div>
-		</div>
 		<div class="contact">
 			<div class="container">
 				<div class="row">
