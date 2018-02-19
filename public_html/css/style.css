@@ -23,24 +23,29 @@
 }
 
 h1 {
-	font-family: "bebasregular;
+	font-family: "bebasregular", Arial, sans-serif;
 }
 
 h2 {
 	font-family: "bebasregular", Arial, sans-serif;
-	/*margin-left: 1rem;*/
-	/*margin-right: 1rem;*/
 	margin-top: 3rem;
 }
 
-p {
+p, ol {
 	font-family: "bitstream_vera_sans_monoroman", monospace, serif;
+}
+
+a {
+	color: black;
+}
+
+a:hover {
+	color: rgb(255, 255, 231);
 }
 
 .welcome {
 	background-color: rgb(57, 113, 178);
-	height: 100vh;
-	padding: 0px;
+	height: 150vh;
 }
 
 .underline-development {
@@ -49,7 +54,6 @@ p {
 
 .underline-design {
 	border-bottom: 0.3rem solid rgb(255, 255, 231);
-
 }
 
 .underline-writing {
@@ -62,7 +66,7 @@ p {
 
 .development {
 	background-color: rgb(240, 187, 31);
-	height: 100vh;
+	height: 150vh;
 	padding: 2em;
 }
 
@@ -70,14 +74,13 @@ p {
 	text-align: right;
 }
 
-/*.technical-skill {*/
-	/*margin-left: 3rem;*/
-	/*margin-right: 3rem;*/
-/*}*/
+.development-description {
+	padding-bottom: 5rem;
+}
 
 .design {
 	background-color: rgb(255, 255, 231);
-	height: 100vh;
+	height: 150vh;
 	padding: 2em;
 }
 
@@ -88,7 +91,7 @@ p {
 
 .writing {
 	background-color: rgb(223, 60, 57);
-	height: 100vh;
+	height: 150vh;
 	padding: 2em;
 }
 
@@ -96,35 +99,33 @@ p {
 	display: flex;
 	align-items: flex-end;
 	flex-direction: row-reverse;
-	text-align: right;
 }
 
 .contact {
 	background-color: rgb(228, 130, 178);
-	height: 100vh;
+	height: 150vh;
 	padding: 2em;
+}
+
+.icon {
+	width: 3rem;
+	padding: 5px;
 }
 
 @media all {
 	h1 {
 		font-size: 10em;
 	}
-	/*h2 {*/
-		/*font-size: 3em;*/
-	/*}*/
-	p {
-		font-size: 2em;
+	p, ol {
+		font-size: 1.5em;
 	}
 }
 	@media all and (max-width: 1000px) {
 		h1 {
 			font-size: 6em;
 		}
-		/*h2 {*/
-			/*font-size: 2.5em;*/
-		/*}*/
-		p {
-			font-size: 1.5em;
+		p, ol {
+			font-size: 1em;
 		}
 
 	}
@@ -132,10 +133,7 @@ p {
 		h1 {
 			font-size: 4em;
 		}
-		/*h2 {*/
-			/*font-size: 2em;*/
-		/*}*/
-		p {
+		p, ol {
 			font-size: 1em;
 		}
 	}

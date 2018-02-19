@@ -47,32 +47,30 @@
 		</div>
 		<div class="development">
 			<div class="container">
-				<div class="row">
-					<div class="col development-title">
+					<div class="development-title">
 						<h1>DEVELOP&#45;<br>MENT</h1>
 					</div>
-				</div>
-				<div class="col development-description">
-					<p>Capstone description</p>
-				</div>
+			<div class="development-description">
+				<p>Mobile web application, ABQ Street Art, an interactive map that allows users to search and locate murals, sculptures, and other public art in Albuquerque.</p>
+				<p>ABQ Street Art’s database was developed with MySQL, the front end UX and UI were created using a combination of HTML5, CSS3, Bootstrap, JavaScript, and jQuery. The backend was built using PHP7. Functionality was added to the project with the AngularJS framework. Geolocation capabilities were integrated using the Google Maps API.</p>
+			</div>
 				<div class="row coding-skills">
-					<div class="col technical-skill">
+					<div class="col text-center">
 					<p>HTML5</p>
 					</div>
-					<div class="col technical-skill">
+					<div class="col text-center">
 					<p>CSS3</p>
 					</div>
-					<div class="col technical-skill">
+					<div class="col text-center">
 					<p>Javascript</p>
 					</div>
-					<div class="col technical-skill">
+					<div class="col text-center">
 					<p>PHP</p>
 					</div>
-					<div class="col technical-skill">
+					<div class="col text-center">
 					<p>mySQL</p>
 					</div>
 				</div>
-
 			</div>
 		</div>
 		<div class="design">
@@ -87,11 +85,11 @@
 		<div class="writing">
 			<div class="container">
 				<div class="row">
-						<p>Link to article</p>
-						<p>Link to article</p>
-						<p>Link to article</p>
+					<p><a href="https://theminimalistcreative.net/blog/the-relentless-pursuit-of-why-how-to-figure-out-what-you-want-and-forge-your-own-path"><u>The Relentless Pursuit of Why: How To Figure Out What You Want and Forge Your Own Path</u></a></p>
+					<p><a href="https://theminimalistcreative.net/blog/five-minute-journaling-exercise-to-diminish-anxiety-and-take-action"><u>What To Do When You Don't Know What To Do - Five Minute Journaling Exercises To Diminish Anxiety and Take Action</u></a></p>
+					<p><a href="https://theminimalistcreative.net/blog/the-systems-i-use-to-take-control-of-my-routine-and-make-time-for-projects-that-matter"><u>The Systems I Use To Take Control of My Routine and Make Time for Projects That Matter</u></a></p>
 				</div>
-					<div class="writing-title d-flex-row">
+					<div class="writing-title row">
 						<h1>WRITING</h1>
 					</div>
 				</div>
@@ -99,11 +97,31 @@
 		<div class="contact">
 			<div class="container">
 				<div class="row">
-					<div class="col contact-title">
+					<a class="col contact-title">
 						<h1>CONTACT</h1>
-					</div>
+						<ol>
+							<li>Have an opinion.</li>
+							<li>Care about something other than yourself.</li>
+							<li>Make work that matters.</li>
+						</ol>
+						<p>James Victore, Designer</p>
+						<a href="https://www.linkedin.com/in/samantharaeandrews/" target="_blank">
+						<img src="images/005-linkedin-logo.svg" alt="linkedin-icon" class="icon">
+						</a>
+						<a href="https://www.behance.net/samanthaandrews" target="_blank">
+						<img src="images/004-behance-logo.svg" alt="behance icon" class="icon">
+					</a>
+						<a href="https://twitter.com/samandrews__" target="_blank">
+						<img src="images/002-twitter-logo-on-black-background.svg" alt="twitter-logo" class="icon">
+						</a>
+						<a href="https://www.instagram.com/samanthaandrews__/" target="_blank">
+						<img src="images/001-instagram-symbol.svg" alt="instagram-logo" class="icon">
+						</a>
+						<a href="mailto:samantharaeandrews@gmail.com" target="_blank">
+						<img src="images/003-black-back-closed-envelope-shape.svg" alt="email-logo" class="icon">
+					</a>
 					<div class="col">
-						<p>My personal philosophy????</p>
+						<p>contact form</p>
 					</div>
 				</div>
 			</div>
