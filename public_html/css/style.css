@@ -120,20 +120,22 @@ a:hover {
 	padding: 5px;
 }
 
-/*.contact-form {*/
-	/*padding-left: 100px;*/
-/*}*/
+.contact-form {
+	padding-left: 5rem;
+	padding-top: 10rem;
+	font-family: "bitstream_vera_sans_monoroman", monospace, serif;
+}
 
 /* Style inputs with type="text", select elements and textareas */
 input[type=text], select, textarea {
-	width: 75%;
+	width: 90%;
 	display: block;
-	font-family: "bitstream_vera_sans_monoroman", monospace, serif;
-	padding: 12px; /* Some padding */
+	/*font-family: "bitstream_vera_sans_monoroman", monospace, serif;*/
+	padding: 7px;
 	border: 3px solid black;
-	box-sizing: border-box; /* Make sure that padding and width stays in place */
-	margin-top: 6px; /* Add a top margin */
-	margin-bottom: 16px; /* Bottom margin */
+	box-sizing: border-box;
+	margin-top: 6px;
+	margin-bottom: 16px;
 	resize: vertical;
 }
 
