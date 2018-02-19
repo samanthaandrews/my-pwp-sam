@@ -9,6 +9,10 @@
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
 				integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
+		<!-- Font Awesome Glyphs-->
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+		<!-- My Style Sheet -->
 		<link rel="stylesheet" href="css/style.css">
 
 		<!-- Optional JavaScript -->
@@ -33,7 +37,7 @@
 					<div class="col-md-3 text-center">
 						<h2><a href="#development"><span class="underline-development">DEVELOPMENT</span></a></h2>
 					</div>
-					<div class="col-md-3 text-center ">
+					<div class="col-md-3 text-center">
 						<h2><a href="#design"><span class="underline-design">DESIGN</span></a></h2>
 					</div>
 					<div class="col-md-3 text-center">
@@ -59,19 +63,19 @@
 						integrated using the Google Maps API.</p>
 				</div>
 				<div class="row coding-skills">
-					<div class="col-md-2 text-center">
+					<div class="col-xs-12 col-sm-12 col-lg">
 						<p><strong>HTML5</strong></p>
 					</div>
-					<div class="col-md-2 text-center">
+					<div class="col-xs-12 col-sm-12 col-lg">
 						<p><strong>CSS3</strong></p>
 					</div>
-					<div class="col-md-2 text-center">
+					<div class="col-xs-12 col-sm-12 col-lg">
 						<p><strong>Javascript</strong></p>
 					</div>
-					<div class="col-md-2 text-center">
+					<div class="col-xs-12 col-sm-12 col-lg">
 						<p><strong>PHP</strong></p>
 					</div>
-					<div class="col-md-2 text-center">
+					<div class="col-xs-12 col-sm-12 col-lg">
 						<p><strong>mySQL</strong></p>
 					</div>
 				</div>
@@ -110,14 +114,15 @@
 		<div class="contact" id="contact">
 			<div class="container">
 				<div class="row">
-					<div class="col-6">
+					<div class="col-xs-12 col-sm-12 col-md-12 col-lg-6">
 						<h1>CONTACT</h1>
-						<ol>
-							<li>Have an opinion.</li>
-							<li>Care about something other than yourself.</li>
-							<li>Make work that matters.</li>
-						</ol>
-						<p>James Victore, Designer</p>
+						<blockquote class="text-right">
+							<i class="fa fa-quote-left"></i>
+							Have an opinion.<br>
+							Care about something other than yourself.<br>
+							Make work that matters.<br><i class="fa fa-quote-right"></i>
+						</blockquote>
+						<p class="text-right">— James Victore, Designer</p>
 						<a href="https://www.linkedin.com/in/samantharaeandrews/" target="_blank">
 							<img src="images/005-linkedin-logo.svg" alt="linkedin-icon" class="icon">
 						</a>
@@ -134,7 +139,7 @@
 							<img src="images/003-black-back-closed-envelope-shape.svg" alt="email-logo" class="icon">
 						</a>
 					</div>
-					<div class="col-6">
+					<div class="col-xs-12 col-sm-12 col-md-12 col-lg-6">
 						<div class="container contact-form">
 							<form action="action_page.php">
 
@@ -143,6 +148,9 @@
 
 								<label for="lname">Last Name</label>
 								<input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+								<label for="email">Email Address</label>
+								<input type="email" id="emailAddress" name="email" placeholder="Your email address..">
 
 								<label for="subject">Subject</label>
 								<textarea id="subject" name="subject" placeholder="Write something.."

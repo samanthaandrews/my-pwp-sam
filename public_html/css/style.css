@@ -31,7 +31,7 @@ h2 {
 	margin-top: 3rem;
 }
 
-p, ol {
+p, blockquote {
 	font-family: "bitstream_vera_sans_monoroman", monospace, serif;
 	color: black;
 }
@@ -48,6 +48,8 @@ a:hover {
 .welcome {
 	background-color: rgb(57, 113, 178);
 	height: 100vh;
+	display:block;
+	overflow:auto;
 	padding: 3em;
 }
 
@@ -69,7 +71,8 @@ a:hover {
 
 .development {
 	background-color: rgb(240, 187, 31);
-	height: 150vh;
+	display:block;
+	overflow:auto;
 	padding: 3em;
 }
 
@@ -84,7 +87,7 @@ a:hover {
 
 .design {
 	background-color: rgb(255, 255, 231);
-	height: 150vh;
+	height: 120vh;
 	padding: 3em;
 }
 
@@ -95,7 +98,7 @@ a:hover {
 
 .writing {
 	background-color: rgb(223, 60, 57);
-	height: 150vh;
+	height: 120vh;
 	padding: 3em;
 }
 
@@ -111,30 +114,39 @@ a:hover {
 
 .contact {
 	background-color: rgb(228, 130, 178);
-	height: 150vh;
+	display:block;
+	overflow:auto;
 	padding: 3em;
+}
+
+.fa {
+	font-size: 1rem;
+}
+
+.blockquote {
+	padding-top: 2rem;
 }
 
 .icon {
 	width: 3rem;
 	padding: 5px;
+	float: right;
 }
 
 .contact-form {
 	padding-left: 5rem;
-	padding-top: 10rem;
+	padding-top: 2rem;
 	font-family: "bitstream_vera_sans_monoroman", monospace, serif;
 }
 
 /* Style inputs with type="text", select elements and textareas */
-input[type=text], select, textarea {
+input[type=text], input[type=email], select, textarea {
 	width: 90%;
 	display: block;
-	/*font-family: "bitstream_vera_sans_monoroman", monospace, serif;*/
-	padding: 7px;
+	padding: 5px;
 	border: 3px solid black;
 	box-sizing: border-box;
-	margin-top: 6px;
+	margin-top: 4px;
 	margin-bottom: 16px;
 	resize: vertical;
 }
@@ -153,16 +165,19 @@ input[type=submit] {
 	h1 {
 		font-size: 8em;
 	}
-	p, ol {
-		font-size: 1.5em;
+	p, ol, blockquote {
+		font-size: 1.3em;
 	}
 }
 	@media all and (max-width: 1000px) {
 		h1 {
 			font-size: 6em;
 		}
-		p, ol {
-			font-size: 1em;
+		p, ol, blockquote {
+			font-size: 1.1em;
+		}
+		span {
+			text-align: justify;
 		}
 
 	}
@@ -170,7 +185,10 @@ input[type=submit] {
 		h1 {
 			font-size: 4em;
 		}
-		p, ol {
+		p, ol, blockquote {
 			font-size: 1em;
+		}
+		span {
+			text-align: justify;
 		}
 	}
