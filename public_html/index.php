@@ -83,7 +83,7 @@
 		</div>
 		<div class="design" id="design">
 			<div class="container">
-				<div class="design-title">
+				<div>
 					<h1>DESIGN</h1>
 				</div>
 			</div>

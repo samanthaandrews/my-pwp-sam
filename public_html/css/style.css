@@ -57,16 +57,32 @@ a:hover {
 	border-bottom: 0.3rem solid rgb(240, 187, 31);
 }
 
+.underline-development:hover {
+	color: rgb(240, 187, 31);
+}
+
 .underline-design {
 	border-bottom: 0.3rem solid rgb(255, 255, 231);
+}
+
+.underline-design:hover {
+	color: rgb(255,255,231);
 }
 
 .underline-writing {
 	border-bottom: 0.3rem solid rgb(223, 60, 57);
 }
 
+.underline-writing:hover {
+	color: rgb(223, 60, 57);
+}
+
 .underline-contact {
 	border-bottom: 0.3rem solid rgb(228, 130, 178);
+}
+
+.underline-contact:hover {
+	color: rgb(228, 130, 178);
 }
 
 .development {
@@ -89,11 +105,6 @@ a:hover {
 	background-color: rgb(255, 255, 231);
 	height: 120vh;
 	padding: 3em;
-}
-
-.design-title {
-	display: flex;
-	align-items: flex-end;
 }
 
 .writing {
@@ -134,7 +145,6 @@ a:hover {
 }
 
 .contact-form {
-	padding-left: 5rem;
 	padding-top: 2rem;
 	font-family: "bitstream_vera_sans_monoroman", monospace, serif;
 }
@@ -177,7 +187,7 @@ input[type=submit] {
 			font-size: 1.1em;
 		}
 		span {
-			text-align: justify;
+			text-align: left;
 		}
 
 	}
@@ -187,8 +197,5 @@ input[type=submit] {
 		}
 		p, ol, blockquote {
 			font-size: 1em;
-		}
-		span {
-			text-align: justify;
 		}
 	}
