@@ -154,9 +154,8 @@
 							<img src="images/003-black-back-closed-envelope-shape.svg" alt="email-logo" class="icon">
 						</a>
 					</div>
-					<div class="col-xs-12 col-sm-12 col-md-12 col-lg-6">
-						<div class="container" >
-							<form id="form" action="php/mailer.php" method="post">
+					<div class="col-xs-12 col-sm-12 col-md-12 col-lg-6 form">
+							<form action="php/mailer.php" method="post">
 
 								<label for="name">Name</label>
 								<input type="text" id="name" name="name" placeholder="Your name..">
@@ -186,6 +185,5 @@
 							</div>
 						</div>
 			</div>
-		</div>
 	</body>
 </html>
