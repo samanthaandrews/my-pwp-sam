@@ -25,15 +25,19 @@
 				  crossorigin="anonymous"></script>
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
 				  integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-				  crossorigin="anonymous"></script>
+				  crossorigin="anonymous"></script>
+		
 
 		<!-- jQuery Form, Additional Methods, Validate -->
-		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery.form/4.2.2/jquery.form.min.js"></script>
-		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.17.0/jquery.validate.min.js"></script>
-		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.17.0/additional-methods.min.js"></script>
+		<script type="text/javascript"
+				  src="https://cdnjs.cloudflare.com/ajax/libs/jquery.form/4.2.2/jquery.form.min.js"></script>
+		<script type="text/javascript"
+				  src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.17.0/jquery.validate.min.js"></script>
+		<script type="text/javascript"
+				  src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.17.0/additional-methods.min.js"></script>
 
 		<!-- Your JavaScript Form Validator -->
-		<script src="js/form-validate.js"></script>
+		<script src="script/jquery-validate.js"></script>
 
 		<!-- Google reCAPTCHA -->
 		<script src='https://www.google.com/recaptcha/api.js'></script>
@@ -151,41 +155,36 @@
 						</a>
 					</div>
 					<div class="col-xs-12 col-sm-12 col-md-12 col-lg-6">
-						<div class="container contact-form">
-							<form action="php/mailer.php">
+						<div class="container" >
+							<form id="form" action="php/mailer.php" method="post">
 
-								<label for="fname">First Name</label>
-								<input type="text" id="fname" name="firstname" placeholder="Your name..">
+								<label for="name">Name</label>
+								<input type="text" id="name" name="name" placeholder="Your name..">
 
-								<label for="lname">Last Name</label>
-								<input type="text" id="lname" name="lastname" placeholder="Your last name..">
 
 								<label for="email">Email Address</label>
 								<input type="email" id="emailAddress" name="email" placeholder="Your email address..">
 
 								<label for="subject">Subject</label>
-								<textarea id="subject" name="subject" placeholder="Write something.."
-											 style="height:200px"></textarea>
+								<input type="text" id="subject" name="subject" placeholder="Subject..">
 
-								<input type="submit" value="Submit">
+								<label for="message">Message</label>
+								<textarea id="message" name="message" placeholder="Write something.."
+											 style="height:200px"></textarea>
 
 								<!-- reCAPTCHA -->
 								<div class="g-recaptcha" data-sitekey="6LfA-kcUAAAAAAOZfiRjlrOyNAOHt297n9yW5tcC
 "></div>
+								<input type="submit" value="Submit">
 
-								<button class="btn btn-success" type="submit"><i class="fa fa-paper-plane"></i> Send</button>
-								<button class="btn btn-warning" type="reset"><i class="fa fa-ban"></i> Reset</button>
+								<input type="reset" value="Reset">
 							</form>
 
 							<!--empty area for form error/success output-->
-							<div class="row">
-								<div class="col-xs-12">
-									<div id="output-area"></div>
+							<div id="output-area"></div>
 								</div>
 							</div>
 						</div>
-					</div>
-				</div>
 			</div>
 		</div>
 	</body>

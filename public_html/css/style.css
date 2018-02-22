@@ -162,13 +162,14 @@ input[type=text], input[type=email], select, textarea {
 }
 
 /* Style the submit button with a specific background color etc */
-input[type=submit] {
+input[type=submit], input[type=reset] {
 	background-color: black;
 	font-family: "bitstream_vera_sans_monoroman", monospace, serif;
 	color: white;
 	padding: 12px 20px;
 	border: none;
 	cursor: pointer;
+	margin-top: 5px;
 }
 
 @media all {
