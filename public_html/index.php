@@ -152,7 +152,7 @@
 					</div>
 					<div class="col-xs-12 col-sm-12 col-md-12 col-lg-6">
 						<div class="container contact-form">
-							<form action="action_page.php">
+							<form action="php/mailer.php">
 
 								<label for="fname">First Name</label>
 								<input type="text" id="fname" name="firstname" placeholder="Your name..">
