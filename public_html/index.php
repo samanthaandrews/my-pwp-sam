@@ -155,35 +155,35 @@
 						</a>
 					</div>
 					<div class="col-xs-12 col-sm-12 col-md-12 col-lg-6 form">
-							<form action="php/mailer.php" method="post">
+						<form id="contact-form" action="php/mailer.php" method="post">
 
-								<label for="name">Name</label>
-								<input type="text" id="name" name="name" placeholder="Your name..">
+							<label for="name">Name</label>
+							<input type="text" id="name" name="name" placeholder="Your name..">
 
 
-								<label for="email">Email Address</label>
-								<input type="email" id="emailAddress" name="email" placeholder="Your email address..">
+							<label for="email">Email Address</label>
+							<input type="email" id="email" name="email" placeholder="Your email address..">
 
-								<label for="subject">Subject</label>
-								<input type="text" id="subject" name="subject" placeholder="Subject..">
+							<label for="subject">Subject</label>
+							<input type="text" id="subject" name="subject" placeholder="Subject..">
 
-								<label for="message">Message</label>
-								<textarea id="message" name="message" placeholder="Write something.."
-											 style="height:200px"></textarea>
+							<label for="message">Message</label>
+							<textarea id="message" name="message" placeholder="Write something.."
+										 style="height:200px"></textarea>
 
-								<!-- reCAPTCHA -->
-								<div class="g-recaptcha" data-sitekey="6LfA-kcUAAAAAAOZfiRjlrOyNAOHt297n9yW5tcC
+							<!-- reCAPTCHA -->
+							<div class="g-recaptcha" data-sitekey="6LfA-kcUAAAAAAOZfiRjlrOyNAOHt297n9yW5tcC
 "></div>
-								<input type="submit" value="Submit">
+							<input type="submit" value="Submit">
 
-								<input type="reset" value="Reset">
-							</form>
+							<input type="reset" value="Reset">
+						</form>
 
-							<!--empty area for form error/success output-->
-							<div id="output-area"></div>
-								</div>
-							</div>
-						</div>
+						<!--empty area for form error/success output-->
+						<div id="output-area"></div>
+					</div>
+				</div>
 			</div>
+		</div>
 	</body>
 </html>
