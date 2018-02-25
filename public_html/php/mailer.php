@@ -9,7 +9,7 @@
  **/
 
 // require all composer dependencies
-require_once(dirname(__DIR__, 1) . "/vendor/autoload.php");
+require_once(dirname(__DIR__, 2) . "/vendor/autoload.php");
 
 // require mail-config.php
 require_once("mail-config.php");
@@ -92,8 +92,7 @@ try {
 		throw(new RuntimeException("unable to send email"));
 	}
 
-
-// report a successful send!
+	// report a successful send!
 	echo "<div class=\"alert alert-success\" role=\"alert\">Email successfully sent.</div>";
 
 } catch(Exception $exception) {

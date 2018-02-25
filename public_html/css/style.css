@@ -24,11 +24,11 @@
 
 h1 {
 	font-family: "bebasregular", Arial, sans-serif;
+	color: black;
 }
 
 h2 {
 	font-family: "bebasregular", Arial, sans-serif;
-	margin-top: 3rem;
 }
 
 p, blockquote {
@@ -45,12 +45,15 @@ a:hover {
 	text-decoration: none;
 }
 
-.welcome {
-	background-color: rgb(57, 113, 178);
-	height: 100vh;
+.welcome, .development, .design, .writing, .contact {
+	min-height: 100vh;
 	display:block;
 	overflow:auto;
-	padding: 3em;
+	padding: 2em 0;
+}
+
+.welcome {
+	background-color: rgb(57, 113, 178);
 }
 
 .underline-development {
@@ -87,12 +90,12 @@ a:hover {
 
 .development {
 	background-color: rgb(240, 187, 31);
-	display:block;
-	overflow:auto;
-	padding: 3em;
 }
 
 .development-title {
+	display: flex;
+	align-items: flex-end;
+	flex-direction: row-reverse;
 	text-align: right;
 	padding-bottom: 2em;
 }
@@ -103,20 +106,11 @@ a:hover {
 
 .design {
 	background-color: rgb(255, 255, 231);
-	height: 120vh;
-	padding: 3em;
 }
+
 
 .writing {
 	background-color: rgb(223, 60, 57);
-	height: 120vh;
-	padding: 3em;
-}
-
-.writing-title {
-	display: flex;
-	align-items: flex-end;
-	flex-direction: row-reverse;
 }
 
 .article-link {
@@ -125,13 +119,10 @@ a:hover {
 
 .contact {
 	background-color: rgb(228, 130, 178);
-	display:block;
-	overflow:auto;
-	padding: 3em;
 }
 
 .fa {
-	font-size: 1rem;
+	font-size: 2rem;
 }
 
 .blockquote {
@@ -184,19 +175,29 @@ input[type=submit], input[type=reset] {
 		h1 {
 			font-size: 6em;
 		}
+		h2 {
+			padding-bottom: 2rem;
+		}
 		p, ol, blockquote {
 			font-size: 1.1em;
 		}
-		span {
-			text-align: left;
+		.welcome, .development, .design, .writing, .contact {
+			padding-left: 1em;
+			padding-right: 1em;
 		}
-
 	}
-	@media all and (max-width: 500px) {
+	@media all and (max-width: 576px) {
 		h1 {
 			font-size: 4em;
 		}
+		h2 {
+			padding-bottom: 2rem;
+		}
 		p, ol, blockquote {
 			font-size: 1em;
+		}
+		.welcome, .development, .design, .writing, .contact {
+			padding-left: 1em;
+			padding-right: 1em;
 		}
 	}
