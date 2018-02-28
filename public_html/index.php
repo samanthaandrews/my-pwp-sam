@@ -12,6 +12,14 @@
 		<!-- Font Awesome Glyphs -->
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
+		<!-- Add latest jQuery and fancyBox files -->
+
+		<script src="//code.jquery.com/jquery-3.2.1.min.js"></script>
+
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.css" />
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.js"></script>
+
+
 		<!-- My Style Sheet -->
 		<link rel="stylesheet" href="css/style.css">
 
@@ -94,6 +102,10 @@
 		</div>
 		<div class="design">
 			<div class="container">
+				<div class="row">
+					<a data-fancybox="gallery" href="big_1.jpg"><img src="small_1.jpg"></a>
+					<a data-fancybox="gallery" href="big_2.jpg"><img src="small_2.jpg"></a>
+				</div>
 				<div class="row design-title" id="design">
 					<h1>DESIGN</h1>
 				</div>
@@ -135,19 +147,19 @@
 						</blockquote>
 						<p class="text-right pb-4">— James Victore, Designer</p>
 						<a href="https://www.linkedin.com/in/samantharaeandrews/" target="_blank">
-							<img src="images/005-linkedin-logo.svg" alt="linkedin-icon" class="icon">
+							<img src="images/icons/005-linkedin-logo.svg" alt="linkedin-icon" class="icon">
 						</a>
 						<a href="https://www.behance.net/samanthaandrews" target="_blank">
-							<img src="images/004-behance-logo.svg" alt="behance icon" class="icon">
+							<img src="images/icons/004-behance-logo.svg" alt="behance icon" class="icon">
 						</a>
 						<a href="https://twitter.com/samandrews__" target="_blank">
-							<img src="images/002-twitter-logo-on-black-background.svg" alt="twitter-logo" class="icon">
+							<img src="images/icons/002-twitter-logo-on-black-background.svg" alt="twitter-logo" class="icon">
 						</a>
 						<a href="https://www.instagram.com/samanthaandrews__/" target="_blank">
-							<img src="images/001-instagram-symbol.svg" alt="instagram-logo" class="icon">
+							<img src="images/icons/001-instagram-symbol.svg" alt="instagram-logo" class="icon">
 						</a>
 						<a href="mailto:samantharaeandrews@gmail.com" target="_blank">
-							<img src="images/003-black-back-closed-envelope-shape.svg" alt="email-logo" class="icon">
+							<img src="images/icons/003-black-back-closed-envelope-shape.svg" alt="email-logo" class="icon">
 						</a>
 					</div>
 					<div class="col-sm-12 col-md-12 col-lg-6 form">
