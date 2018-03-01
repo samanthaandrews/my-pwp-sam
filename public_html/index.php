@@ -103,8 +103,9 @@
 		<div class="design">
 			<div class="container">
 				<div class="row">
-					<a data-fancybox="gallery" href="big_1.jpg"><img src="small_1.jpg"></a>
-					<a data-fancybox="gallery" href="big_2.jpg"><img src="small_2.jpg"></a>
+					<a data-fancybox="gallery" href="images/pdf/minimalist-creative-blog-design.pdf"><img src="images/minimalist-creative.jpg" class="portfolio-image"></a>
+					<a data-fancybox="gallery" href="images/pdf/tessa-nickerson-branding.pdf"><img src="images/tessa-nickerson.jpg" class="portfolio-image"></a>
+					<a data-fancybox="gallery" href="images/pdf/scintillating-fire-circus-branding.pdf"><img src="images/scintillating-fire-circus.jpg" class="portfolio-image"></a>
 				</div>
 				<div class="row design-title" id="design">
 					<h1>DESIGN</h1>
