@@ -100,18 +100,20 @@
 				</div>
 			</div>
 		</div>
-		<div class="design">
-			<div class="container">
+		<div class="design" id="design">
+			<div class="container d-flex">
 				<div class="row">
+					<div class="col-4 design-title">
+						<h1 class="d-flex align-self-end">DESIGN</h1>
+					</div>
+					<div class="col-8">
 					<a data-fancybox="gallery" href="images/pdf/minimalist-creative-blog-design.pdf"><img src="images/minimalist-creative.jpg" class="portfolio-image"></a>
 					<a data-fancybox="gallery" href="images/pdf/tessa-nickerson-branding.pdf"><img src="images/tessa-nickerson.jpg" class="portfolio-image"></a>
-					<a data-fancybox="gallery" href="images/pdf/scintillating-fire-circus-branding.pdf"><img src="images/scintillating-fire-circus.jpg" class="portfolio-image"></a>
+					<a data-fancybox="gallery" href="images/pdf/scintillating-fire-circus-branding.pdf"><img src="images/scintillating-fire-circus.png" class="portfolio-image"></a>
 				</div>
-				<div class="row design-title" id="design">
-					<h1>DESIGN</h1>
 				</div>
 			</div>
-		</div>
+			</div>
 		<div class="writing" id="writing">
 			<div class="container">
 				<div class="row">

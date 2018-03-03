@@ -109,7 +109,10 @@ a:hover {
 }
 
 .portfolio-image {
-	height: 30vh;
+	height: 25vh;
+	border: .4rem solid black;
+	padding: 5px;
+	margin: 7px;
 }
 
 .writing {
@@ -139,7 +142,7 @@ a:hover {
 }
 
 .form {
-	padding-top: 2rem;
+	padding-top: 1rem;
 	font-family: "bitstream_vera_sans_monoroman", monospace, serif;
 }
 
