@@ -103,13 +103,14 @@
 		<div class="design" id="design">
 			<div class="container d-flex">
 				<div class="row">
-					<div class="col-4 design-title">
+					<div class="col-lg-4 design-title">
 						<h1 class="d-flex align-self-end">DESIGN</h1>
 					</div>
-					<div class="col-8">
+					<div class="col-lg-8">
 					<a data-fancybox="gallery" href="images/pdf/minimalist-creative-blog-design.pdf"><img src="images/minimalist-creative.jpg" class="portfolio-image"></a>
 					<a data-fancybox="gallery" href="images/pdf/tessa-nickerson-branding.pdf"><img src="images/tessa-nickerson.jpg" class="portfolio-image"></a>
-					<a data-fancybox="gallery" href="images/pdf/scintillating-fire-circus-branding.pdf"><img src="images/scintillating-fire-circus.png" class="portfolio-image"></a>
+					<a data-fancybox="gallery" href="images/pdf/scintillating-fire-circus-branding.pdf"><img src="images/scintillating-fire-circus.jpg" class="portfolio-image"></a>
+						<a data-fancybox="gallery" href="images/pdf/krista-lockwood-branding.pdf"><img src="images/krista-lockwood-hoop-dancer.jpg" class="portfolio-image"></a>
 				</div>
 				</div>
 			</div>
