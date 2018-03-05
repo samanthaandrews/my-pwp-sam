@@ -108,19 +108,28 @@ a:hover {
 	background-color: rgb(255, 255, 231);
 }
 
+.design-title {
+}
+
 .portfolio-image {
-	height: 25vh;
+	height: 20vh;
 	border: .4rem solid black;
 	padding: 5px;
-	margin: 7px;
+	margin-right: 7px;
+	margin-bottom: 7px;
 }
 
 .writing {
 	background-color: rgb(223, 60, 57);
 }
 
+.writing-title {
+	padding-top: 3rem;
+}
+
 .article-link {
 	padding-left: 2rem;
+	padding-top: 2rem;
 }
 
 .contact {
