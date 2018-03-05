@@ -46,12 +46,13 @@
 
 		<!-- Google reCAPTCHA -->
 		<script src='https://www.google.com/recaptcha/api.js'></script>
+		<script src="javascript/script.js"></script>
 		<title>Samantha Andrews - Developer, Designer, Writer</title>
 	</head>
 
 	<body class="pageWrapper">
 		<section class="full">
-			<div class="welcome slide">
+			<div class="welcome slide" id="alton">
 				<div class="container">
 					<div class="row welcome-title pb-5">
 						<h1>SAMANTHA <br> ANDREWS</h1>
@@ -72,7 +73,7 @@
 					</div>
 				</div>
 			</div>
-			<div class="development slide" id="development">
+			<div class="development slide" id="development alton">
 				<div class="container">
 					<div class="row development-title">
 						<h1>DEVELOP&#45;<br>MENT</h1>
@@ -106,10 +107,10 @@
 					</div>
 				</div>
 			</div>
-			<div class="design slide" id="design">
+			<div class="design slide" id="design alton">
 				<div class="container">
 					<div class="row">
-						<div class="col-lg-4">
+						<div class="col-lg-4 h-100 d-flex align-items-end">
 							<h1>DESIGN</h1>
 						</div>
 						<div class="col-lg-8">
@@ -128,12 +129,14 @@
 											src="images/weekly-scraps.jpg" class="portfolio-image"></a>
 									<a data-fancybox="gallery" href="images/pdf/digital-wallpapers.pdf"><img
 											src="images/digital-wallpapers.jpg" class="portfolio-image"></a>
+									<a data-fancybox="gallery" href="images/pdf/post-it-notes.pdf"><img
+											src="images/post-it-notes.jpg" class="portfolio-image"></a>
 								</div>
 						</div>
 					</div>
 				</div>
 			</div>
-				<div class="writing slide" id="writing">
+				<div class="writing slide" id="writing alton">
 					<div class="container">
 						<div class="row">
 							<p><strong>I write articles about creativity and productivity on my blog, <a
@@ -162,16 +165,16 @@
 						</div>
 					</div>
 				</div>
-				<div class="contact slide" id="contact">
+				<div class="contact slide" id="contact alton">
 					<div class="container">
 						<div class="row">
 							<div class="col-sm-12 col-md-12 col-lg-6">
-								<h1>CONTACT</h1>
+								<h1 class="pb-3">CONTACT</h1>
 								<blockquote class="text-right">
 									<i class="fa fa-quote-left"></i>
 									Have an opinion.<br>
 									Care about something other than yourself.<br>
-									Make work that matters.<br><i class="fa fa-quote-right"></i>
+									Make work that matters.<i class="fa fa-quote-right"></i>
 								</blockquote>
 								<p class="text-right pb-4">— James Victore, Designer</p>
 								<a href="https://www.linkedin.com/in/samantharaeandrews/" target="_blank">
