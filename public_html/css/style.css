@@ -57,6 +57,7 @@ strong {
 	overflow:auto;
 }
 
+/*Styling everything in the welcome/intro section*/
 .welcome {
 	background-color: rgb(57, 113, 178);
 }
@@ -93,6 +94,7 @@ strong {
 	color: rgb(228, 130, 178);
 }
 
+/*Styling everything in the development section*/
 .development {
 	background-color: rgb(240, 187, 31);
 }
@@ -109,6 +111,7 @@ strong {
 	padding-bottom: 3em;
 }
 
+/*Styling everything in the design section*/
 .design {
 	background-color: rgb(255, 255, 231);
 }
@@ -121,6 +124,7 @@ strong {
 	margin-bottom: 7px;
 }
 
+/*Styling everything in the writing section*/
 .writing {
 	background-color: rgb(223, 60, 57);
 }
@@ -130,6 +134,7 @@ strong {
 	padding-top: 2rem;
 }
 
+/*Styling everything in the contact section*/
 .contact {
 	background-color: rgb(228, 130, 178);
 }
@@ -176,6 +181,7 @@ input[type=submit], input[type=reset] {
 	margin-top: 5px;
 }
 
+/*Media Queries*/
 @media all {
 	.container-fluid {
 		padding: 5rem;
