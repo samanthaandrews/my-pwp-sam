@@ -63,7 +63,7 @@
 
 			<!-- begin section -->
 			<div class="section welcome fp-section" data-anchor="welcome">
-				<div class="container">
+				<div class="container-fluid">
 					<div class="row welcome-title pb-5">
 						<h1>SAMANTHA <br> ANDREWS</h1>
 					</div>
@@ -86,7 +86,7 @@
 
 			<!-- begin section -->
 			<div class="section development fp-section" data-anchor="development" id="development">
-				<div class="container">
+				<div class="container-fluid">
 					<div class="row development-title">
 						<h1>DEVELOP&#45;<br>MENT</h1>
 					</div>
@@ -122,7 +122,7 @@
 
 			<!-- begin section -->
 			<div class="section design fp-section" data-anchor="design" id="design">
-				<div class="container">
+				<div class="container-fluid">
 					<div class="row">
 						<div class="col-lg-4 h-100 d-flex align-items-end">
 							<h1>DESIGN</h1>
@@ -135,6 +135,8 @@
 										src="images/tessa-nickerson.jpg" class="portfolio-image"></a>
 								<a data-fancybox="gallery" href="images/pdf/scintillating-fire-circus-branding.pdf"><img
 										src="images/scintillating-fire-circus.jpg" class="portfolio-image"></a>
+							</div>
+								<div class="row d-flex justify-content-end">
 								<a data-fancybox="gallery" href="images/pdf/krista-lockwood-branding.pdf"><img
 										src="images/krista-lockwood.jpg" class="portfolio-image"></a>
 							</div>
@@ -153,7 +155,10 @@
 
 			<!-- begin section -->
 				<div class="section writing fp-section" data-anchor="writing" id="writing">
-					<div class="container">
+					<div class="container-fluid">
+						<div class="row writing-title">
+							<h1>WRITING</h1>
+						</div>
 						<div class="row">
 							<p><strong>I write articles about creativity and productivity on my blog, <a
 										href="https://theminimalistcreative.net/"><u>TheMinimalistCreative.net</u></a>. Here are
@@ -176,23 +181,19 @@
 										Systems I Use To Take Control of My Routine and Make Time for Projects That Matter</u></a>
 							</p>
 						</div>
-						<div class="row d-flex justify-content-end writing-title">
-							<h1>WRITING</h1>
-						</div>
 					</div>
 				</div>
 
 			<!-- begin section -->
 				<div class="section contact fp-section" data-anchor="contact" id="contact">
-					<div class="container">
+					<div class="container-fluid">
 						<div class="row">
 							<div class="col-sm-12 col-md-12 col-lg-6">
 								<h1 class="pb-3">CONTACT</h1>
 								<blockquote class="text-right">
-									<i class="fa fa-quote-left"></i>
-									Have an opinion.<br>
+									<i class="fa fa-quote-left"></i> Have an opinion.<br>
 									Care about something other than yourself.<br>
-									Make work that matters.<i class="fa fa-quote-right"></i>
+									Make work that matters. <i class="fa fa-quote-right"></i>
 								</blockquote>
 								<p class="text-right pb-4">— James Victore, Designer</p>
 								<a href="mailto:samantharaeandrews@gmail.com" target="_blank">

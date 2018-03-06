@@ -45,11 +45,14 @@ a:hover {
 	text-decoration: none;
 }
 
+strong {
+	font-weight: 900;
+}
+
 .welcome, .development, .design, .writing, .contact {
 	min-height: 100vh;
 	display:block;
 	overflow:auto;
-	padding: 2em 0;
 }
 
 .welcome {
@@ -92,7 +95,7 @@ a:hover {
 	background-color: rgb(240, 187, 31);
 }
 
-.development-title {
+.development-title, .writing-title {
 	display: flex;
 	align-items: flex-end;
 	flex-direction: row-reverse;
@@ -108,11 +111,8 @@ a:hover {
 	background-color: rgb(255, 255, 231);
 }
 
-.design-title {
-}
-
 .portfolio-image {
-	height: 9rem;
+	width: 15rem;
 	border: .4rem solid black;
 	padding: 5px;
 	margin-right: 7px;
@@ -121,10 +121,6 @@ a:hover {
 
 .writing {
 	background-color: rgb(223, 60, 57);
-}
-
-.writing-title {
-	padding-top: 3rem;
 }
 
 .article-link {
@@ -182,8 +178,15 @@ input[type=submit], input[type=reset] {
 	h1 {
 		font-size: 8em;
 	}
+	h2 {
+		font-size: 3em;
+		padding-top: 3rem;
+	}
 	p, ol, blockquote {
 		font-size: 1.3em;
+	}
+	.container-fluid {
+		padding: 5rem;
 	}
 }
 	@media all and (max-width: 1000px) {
@@ -191,14 +194,14 @@ input[type=submit], input[type=reset] {
 			font-size: 6em;
 		}
 		h2 {
+			font-size: 3em;
 			padding-bottom: 2rem;
 		}
 		p, ol, blockquote {
 			font-size: 1.1em;
 		}
-		.welcome, .development, .design, .writing, .contact {
-			padding-left: 1em;
-			padding-right: 1em;
+		.container-fluid {
+			padding: 5rem;
 		}
 	}
 	@media all and (max-width: 576px) {
@@ -206,13 +209,13 @@ input[type=submit], input[type=reset] {
 			font-size: 4em;
 		}
 		h2 {
+			font-size: 2em;
 			padding-bottom: 2rem;
 		}
 		p, ol, blockquote {
 			font-size: 1em;
 		}
-		.welcome, .development, .design, .writing, .contact {
-			padding-left: 1em;
-			padding-right: 1em;
+		.container-fluid {
+			padding: 2rem;
 		}
 	}
