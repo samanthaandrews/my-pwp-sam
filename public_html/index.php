@@ -10,28 +10,31 @@
 				integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
 		<!-- Font Awesome Glyphs -->
-		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
 
-		<!-- Add latest jQuery and fancyBox files -->
-
-		<script src="//code.jquery.com/jquery-3.2.1.min.js"></script>
-
-		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.css"/>
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.js"></script>
-
+		<!-- fullPage.js CSS -->
+		<link rel="stylesheet" href="css/jquery.fullpage.min.css" type="text/css">
 
 		<!-- My Style Sheet -->
-		<link rel="stylesheet" href="css/style.css">
+		<link rel="stylesheet" href="css/style.css" type="text/css">
 
-		<!-- Optional JavaScript -->
-		<!-- jQuery first, then Popper.js, then Bootstrap JS -->
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<!-- Bootstrap - jQuery first, then Popper.js, then Bootstrap JS -->
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js" type="text/javascript"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
 				  integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
 				  crossorigin="anonymous"></script>
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
 				  integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
 				  crossorigin="anonymous"></script>
+
+		<!-- fullPage.js -->
+		<script src="script/jquery.fullpage.min.js" type="text/javascript"></script>
+
+		<!-- Add latest jQuery and fancyBox files -->
+		<script src="//code.jquery.com/jquery-3.2.1.min.js"></script>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.css"/>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.js"></script>
+
 
 		<!-- jQuery Form, Additional Methods, Validate -->
 		<script type="text/javascript"
@@ -42,17 +45,24 @@
 				  src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.17.0/additional-methods.min.js"></script>
 
 		<!-- Your JavaScript Form Validator -->
-		<script src="script/form-validate.js"></script>
+		<script src="script/form-validate.js" type="text/javascript"></script>
 
 		<!-- Google reCAPTCHA -->
 		<script src='https://www.google.com/recaptcha/api.js'></script>
-		<script src="javascript/script.js"></script>
+
+		<!-- Custom Javascript needed to initialize Full Page -->
+		<script src="script/script.js" type="text/javascript"></script>
+
 		<title>Samantha Andrews - Developer, Designer, Writer</title>
 	</head>
 
-	<body class="pageWrapper">
-		<section class="full">
-			<div class="welcome slide" id="alton">
+	<body>
+
+		<!-- Outer wrapper for fullpage.js -->
+		<div id="fullpage">
+
+			<!-- begin section -->
+			<div class="section welcome fp-section" data-anchor="welcome">
 				<div class="container">
 					<div class="row welcome-title pb-5">
 						<h1>SAMANTHA <br> ANDREWS</h1>
@@ -73,7 +83,9 @@
 					</div>
 				</div>
 			</div>
-			<div class="development slide" id="development alton">
+
+			<!-- begin section -->
+			<div class="section development fp-section" data-anchor="development" id="development">
 				<div class="container">
 					<div class="row development-title">
 						<h1>DEVELOP&#45;<br>MENT</h1>
@@ -107,7 +119,9 @@
 					</div>
 				</div>
 			</div>
-			<div class="design slide" id="design alton">
+
+			<!-- begin section -->
+			<div class="section design fp-section" data-anchor="design" id="design">
 				<div class="container">
 					<div class="row">
 						<div class="col-lg-4 h-100 d-flex align-items-end">
@@ -136,7 +150,9 @@
 					</div>
 				</div>
 			</div>
-				<div class="writing slide" id="writing alton">
+
+			<!-- begin section -->
+				<div class="section writing fp-section" data-anchor="writing" id="writing">
 					<div class="container">
 						<div class="row">
 							<p><strong>I write articles about creativity and productivity on my blog, <a
@@ -165,7 +181,9 @@
 						</div>
 					</div>
 				</div>
-				<div class="contact slide" id="contact alton">
+
+			<!-- begin section -->
+				<div class="section contact fp-section" data-anchor="contact" id="contact">
 					<div class="container">
 						<div class="row">
 							<div class="col-sm-12 col-md-12 col-lg-6">
@@ -177,22 +195,26 @@
 									Make work that matters.<i class="fa fa-quote-right"></i>
 								</blockquote>
 								<p class="text-right pb-4">— James Victore, Designer</p>
-								<a href="https://www.linkedin.com/in/samantharaeandrews/" target="_blank">
-									<img src="images/icons/005-linkedin-logo.svg" alt="linkedin-icon" class="icon">
-								</a>
-								<a href="https://www.behance.net/samanthaandrews" target="_blank">
-									<img src="images/icons/004-behance-logo.svg" alt="behance icon" class="icon">
-								</a>
-								<a href="https://twitter.com/samandrews__" target="_blank">
-									<img src="images/icons/002-twitter-logo-on-black-background.svg" alt="twitter-logo"
-										  class="icon">
+								<a href="mailto:samantharaeandrews@gmail.com" target="_blank">
+									<i class="fas fa-envelope-square fa-2x"></i>
 								</a>
 								<a href="https://www.instagram.com/samanthaandrews__/" target="_blank">
-									<img src="images/icons/001-instagram-symbol.svg" alt="instagram-logo" class="icon">
+									<i class="fab fa-instagram fa-2x"></i>
 								</a>
-								<a href="mailto:samantharaeandrews@gmail.com" target="_blank">
-									<img src="images/icons/003-black-back-closed-envelope-shape.svg" alt="email-logo"
-										  class="icon">
+								<a href="https://twitter.com/samandrews__" target="_blank">
+									<i class="fab fa-twitter-square fa-2x"></i>
+								</a>
+								<a href="https://www.behance.net/samanthaandrews" target="_blank">
+									<i class="fab fa-behance-square fa-2x"></i>
+								</a>
+								<a href="https://github.com/samanthaandrews/" target="_blank">
+									<i class="fab fa-github-square fa-2x"></i>
+								</a>
+								<a href="https://medium.com/@samanthaandrews" target="_blank">
+									<i class="fab fa-medium-m fa-2x"></i>
+								</a>
+								<a href="https://www.linkedin.com/in/samantharaeandrews/" target="_blank">
+									<i class="fab fa-linkedin fa-2x"></i>
 								</a>
 							</div>
 							<div class="col-sm-12 col-md-12 col-lg-6 form">
@@ -200,7 +222,6 @@
 
 									<label for="name">Name</label>
 									<input type="text" id="name" name="name" placeholder="Your name..">
-
 
 									<label for="email">Email Address</label>
 									<input type="email" id="email" name="email" placeholder="Your email address..">
@@ -210,7 +231,7 @@
 
 									<label for="message">Message</label>
 									<textarea id="message" name="message" placeholder="Write something.."
-												 style="height:200px"></textarea>
+												 style="height:100px"></textarea>
 
 									<!-- reCAPTCHA -->
 									<div class="g-recaptcha" data-sitekey="6LfA-kcUAAAAAAOZfiRjlrOyNAOHt297n9yW5tcC"></div>
@@ -225,6 +246,6 @@
 						</div>
 					</div>
 				</div>
-		</section>
+		</div>
 	</body>
 </html>
