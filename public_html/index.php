@@ -12,6 +12,9 @@
 		<!-- Font Awesome Glyphs -->
 		<script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
 
+		<!-- Add latest fancyBox stylesheet -->
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.css"/>
+
 		<!-- fullPage.js CSS -->
 		<link rel="stylesheet" href="css/jquery.fullpage.min.css" type="text/css">
 
@@ -32,9 +35,7 @@
 
 		<!-- Add latest jQuery and fancyBox files -->
 		<script src="//code.jquery.com/jquery-3.2.1.min.js"></script>
-		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.css"/>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.js"></script>
-
 
 		<!-- jQuery Form, Additional Methods, Validate -->
 		<script type="text/javascript"
@@ -61,8 +62,8 @@
 		<!-- Outer wrapper for fullpage.js -->
 		<div id="fullpage">
 
-			<!-- begin section -->
-			<div class="section welcome fp-section" data-anchor="welcome">
+			<!-- begin welcome section -->
+			<div class="section welcome fp-section" data-anchor="welcomeJs">
 				<div class="container-fluid">
 					<div class="row welcome-title pb-5">
 						<h1>SAMANTHA <br> ANDREWS</h1>
@@ -84,8 +85,8 @@
 				</div>
 			</div>
 
-			<!-- begin section -->
-			<div class="section development fp-section" data-anchor="development" id="development">
+			<!-- begin development section -->
+			<div class="section development fp-section" data-anchor="developmentJs" id="development">
 				<div class="container-fluid">
 					<div class="row development-title">
 						<h1>DEVELOP&#45;<br>MENT</h1>
@@ -120,14 +121,14 @@
 				</div>
 			</div>
 
-			<!-- begin section -->
-			<div class="section design fp-section" data-anchor="design" id="design">
+			<!-- begin design section -->
+			<div class="section design fp-section" data-anchor="designJs" id="design">
 				<div class="container-fluid">
 					<div class="row">
 						<div class="col-lg-4 h-100 d-flex align-items-end">
 							<h1>DESIGN</h1>
 						</div>
-						<div class="col-lg-8">
+						<div class="col-lg-8 align-items-center">
 							<div class="row d-flex justify-content-end">
 								<a data-fancybox="gallery" href="images/pdf/minimalist-creative-blog-design.pdf"><img
 										src="images/minimalist-creative.jpg" class="portfolio-image"></a>
@@ -136,117 +137,117 @@
 								<a data-fancybox="gallery" href="images/pdf/scintillating-fire-circus-branding.pdf"><img
 										src="images/scintillating-fire-circus.jpg" class="portfolio-image"></a>
 							</div>
-								<div class="row d-flex justify-content-end">
+							<div class="row d-flex justify-content-end">
 								<a data-fancybox="gallery" href="images/pdf/krista-lockwood-branding.pdf"><img
 										src="images/krista-lockwood.jpg" class="portfolio-image"></a>
 							</div>
-								<div class="row d-flex justify-content-end">
-									<a data-fancybox="gallery" href="images/pdf/weekly-scraps-project.pdf"><img
-											src="images/weekly-scraps.jpg" class="portfolio-image"></a>
-									<a data-fancybox="gallery" href="images/pdf/digital-wallpapers.pdf"><img
-											src="images/digital-wallpapers.jpg" class="portfolio-image"></a>
-									<a data-fancybox="gallery" href="images/pdf/post-it-notes.pdf"><img
-											src="images/post-it-notes.jpg" class="portfolio-image"></a>
-								</div>
+							<div class="row d-flex justify-content-end">
+								<a data-fancybox="gallery" href="images/pdf/weekly-scraps-project.pdf"><img
+										src="images/weekly-scraps.jpg" class="portfolio-image"></a>
+								<a data-fancybox="gallery" href="images/pdf/digital-wallpapers.pdf"><img
+										src="images/digital-wallpapers.jpg" class="portfolio-image"></a>
+								<a data-fancybox="gallery" href="images/pdf/post-it-notes.pdf"><img
+										src="images/post-it-notes.jpg" class="portfolio-image"></a>
+							</div>
 						</div>
 					</div>
 				</div>
 			</div>
 
-			<!-- begin section -->
-				<div class="section writing fp-section" data-anchor="writing" id="writing">
-					<div class="container-fluid">
-						<div class="row writing-title">
-							<h1>WRITING</h1>
+			<!-- begin writing section -->
+			<div class="section writing fp-section" data-anchor="writingJs" id="writing">
+				<div class="container-fluid">
+					<div class="row writing-title">
+						<h1>WRITING</h1>
+					</div>
+					<div class="row">
+						<p><strong>I write articles about creativity and productivity on my blog, <a
+									href="https://theminimalistcreative.net/"><u>TheMinimalistCreative.net</u></a>. Here are
+								some
+								of
+								my favorites:</strong></p>
+						<br>
+						<p class="article-link"><a
+								href="https://theminimalistcreative.net/blog/the-relentless-pursuit-of-why-how-to-figure-out-what-you-want-and-forge-your-own-path"><u>The
+									Relentless Pursuit of Why: How To Figure Out What You Want and Forge Your Own Path</u></a>
+						</p>
+						<p class="article-link"><a
+								href="https://theminimalistcreative.net/blog/five-minute-journaling-exercise-to-diminish-anxiety-and-take-action"><u>What
+									To Do When You Don't Know What To Do - Five Minute Journaling Exercises To Diminish
+									Anxiety
+									and
+									Take Action</u></a></p>
+						<p class="article-link"><a
+								href="https://theminimalistcreative.net/blog/the-systems-i-use-to-take-control-of-my-routine-and-make-time-for-projects-that-matter"><u>The
+									Systems I Use To Take Control of My Routine and Make Time for Projects That Matter</u></a>
+						</p>
+					</div>
+				</div>
+			</div>
+
+			<!-- begin contact section -->
+			<div class="section contact fp-section" data-anchor="contactJs" id="contact">
+				<div class="container-fluid">
+					<div class="row">
+						<div class="col-sm-12 col-md-12 col-lg-6">
+							<h1 class="pb-3">CONTACT</h1>
+							<blockquote class="text-right">
+								<i class="fa fa-quote-left"></i> Have an opinion.<br>
+								Care about something other than yourself.<br>
+								Make work that matters. <i class="fa fa-quote-right"></i>
+							</blockquote>
+							<p class="text-right pb-4">— James Victore, Designer</p>
+							<a href="mailto:samantharaeandrews@gmail.com" target="_blank">
+								<i class="fas fa-envelope-square fa-2x"></i>
+							</a>
+							<a href="https://www.instagram.com/samanthaandrews__/" target="_blank">
+								<i class="fab fa-instagram fa-2x"></i>
+							</a>
+							<a href="https://twitter.com/samandrews__" target="_blank">
+								<i class="fab fa-twitter-square fa-2x"></i>
+							</a>
+							<a href="https://www.behance.net/samanthaandrews" target="_blank">
+								<i class="fab fa-behance-square fa-2x"></i>
+							</a>
+							<a href="https://github.com/samanthaandrews/" target="_blank">
+								<i class="fab fa-github-square fa-2x"></i>
+							</a>
+							<a href="https://medium.com/@samanthaandrews" target="_blank">
+								<i class="fab fa-medium-m fa-2x"></i>
+							</a>
+							<a href="https://www.linkedin.com/in/samantharaeandrews/" target="_blank">
+								<i class="fab fa-linkedin fa-2x"></i>
+							</a>
 						</div>
-						<div class="row">
-							<p><strong>I write articles about creativity and productivity on my blog, <a
-										href="https://theminimalistcreative.net/"><u>TheMinimalistCreative.net</u></a>. Here are
-									some
-									of
-									my favorites:</strong></p>
-							<br>
-							<p class="article-link"><a
-									href="https://theminimalistcreative.net/blog/the-relentless-pursuit-of-why-how-to-figure-out-what-you-want-and-forge-your-own-path"><u>The
-										Relentless Pursuit of Why: How To Figure Out What You Want and Forge Your Own Path</u></a>
-							</p>
-							<p class="article-link"><a
-									href="https://theminimalistcreative.net/blog/five-minute-journaling-exercise-to-diminish-anxiety-and-take-action"><u>What
-										To Do When You Don't Know What To Do - Five Minute Journaling Exercises To Diminish
-										Anxiety
-										and
-										Take Action</u></a></p>
-							<p class="article-link"><a
-									href="https://theminimalistcreative.net/blog/the-systems-i-use-to-take-control-of-my-routine-and-make-time-for-projects-that-matter"><u>The
-										Systems I Use To Take Control of My Routine and Make Time for Projects That Matter</u></a>
-							</p>
+						<div class="col-sm-12 col-md-12 col-lg-6 form">
+							<form class="form" role="form" id="my-pwp-form" action="php/mailer.php" method="post">
+
+								<label for="name">Name</label>
+								<input type="text" id="name" name="name" placeholder="Your name..">
+
+								<label for="email">Email Address</label>
+								<input type="email" id="email" name="email" placeholder="Your email address..">
+
+								<label for="subject">Subject</label>
+								<input type="text" id="subject" name="subject" placeholder="Subject..">
+
+								<label for="message">Message</label>
+								<textarea id="message" name="message" placeholder="Write something.."
+											 style="height:15vh"></textarea>
+
+								<!-- reCAPTCHA -->
+								<div class="g-recaptcha" data-sitekey="6LfA-kcUAAAAAAOZfiRjlrOyNAOHt297n9yW5tcC"></div>
+
+								<input type="submit" value="Submit" name="enter">
+
+								<input type="reset" value="Reset">
+							</form>
+							<!--empty area for form error/success output-->
+							<div id="output-area"></div>
 						</div>
 					</div>
 				</div>
-
-			<!-- begin section -->
-				<div class="section contact fp-section" data-anchor="contact" id="contact">
-					<div class="container-fluid">
-						<div class="row">
-							<div class="col-sm-12 col-md-12 col-lg-6">
-								<h1 class="pb-3">CONTACT</h1>
-								<blockquote class="text-right">
-									<i class="fa fa-quote-left"></i> Have an opinion.<br>
-									Care about something other than yourself.<br>
-									Make work that matters. <i class="fa fa-quote-right"></i>
-								</blockquote>
-								<p class="text-right pb-4">— James Victore, Designer</p>
-								<a href="mailto:samantharaeandrews@gmail.com" target="_blank">
-									<i class="fas fa-envelope-square fa-2x"></i>
-								</a>
-								<a href="https://www.instagram.com/samanthaandrews__/" target="_blank">
-									<i class="fab fa-instagram fa-2x"></i>
-								</a>
-								<a href="https://twitter.com/samandrews__" target="_blank">
-									<i class="fab fa-twitter-square fa-2x"></i>
-								</a>
-								<a href="https://www.behance.net/samanthaandrews" target="_blank">
-									<i class="fab fa-behance-square fa-2x"></i>
-								</a>
-								<a href="https://github.com/samanthaandrews/" target="_blank">
-									<i class="fab fa-github-square fa-2x"></i>
-								</a>
-								<a href="https://medium.com/@samanthaandrews" target="_blank">
-									<i class="fab fa-medium-m fa-2x"></i>
-								</a>
-								<a href="https://www.linkedin.com/in/samantharaeandrews/" target="_blank">
-									<i class="fab fa-linkedin fa-2x"></i>
-								</a>
-							</div>
-							<div class="col-sm-12 col-md-12 col-lg-6 form">
-								<form class="form" role="form" id="my-pwp-form" action="php/mailer.php" method="post">
-
-									<label for="name">Name</label>
-									<input type="text" id="name" name="name" placeholder="Your name..">
-
-									<label for="email">Email Address</label>
-									<input type="email" id="email" name="email" placeholder="Your email address..">
-
-									<label for="subject">Subject</label>
-									<input type="text" id="subject" name="subject" placeholder="Subject..">
-
-									<label for="message">Message</label>
-									<textarea id="message" name="message" placeholder="Write something.."
-												 style="height:100px"></textarea>
-
-									<!-- reCAPTCHA -->
-									<div class="g-recaptcha" data-sitekey="6LfA-kcUAAAAAAOZfiRjlrOyNAOHt297n9yW5tcC"></div>
-
-									<input type="submit" value="Submit" name="enter">
-
-									<input type="reset" value="Reset">
-								</form>
-								<!--empty area for form error/success output-->
-								<div id="output-area"></div>
-							</div>
-						</div>
-					</div>
-				</div>
+			</div>
 		</div>
 	</body>
 </html>

@@ -25,10 +25,12 @@
 h1 {
 	font-family: "bebasregular", Arial, sans-serif;
 	color: black;
+	font-size: 10vw;
 }
 
 h2 {
 	font-family: "bebasregular", Arial, sans-serif;
+	font-size: 5vh;
 }
 
 p, blockquote {
@@ -112,8 +114,8 @@ strong {
 }
 
 .portfolio-image {
-	width: 15rem;
-	border: .4rem solid black;
+	height: 10rem;
+	border: 5px solid black;
 	padding: 5px;
 	margin-right: 7px;
 	margin-bottom: 7px;
@@ -155,7 +157,7 @@ input[type=text], input[type=email], select, textarea {
 	width: 90%;
 	display: block;
 	padding: 3px;
-	border: 3px solid black;
+	border: 5px solid black;
 	box-sizing: border-box;
 	margin-top: 4px;
 	margin-bottom: 16px;
@@ -175,47 +177,32 @@ input[type=submit], input[type=reset] {
 }
 
 @media all {
-	h1 {
-		font-size: 8em;
-	}
-	h2 {
-		font-size: 3em;
-		padding-top: 3rem;
-	}
-	p, ol, blockquote {
-		font-size: 1.3em;
-	}
 	.container-fluid {
 		padding: 5rem;
 	}
+	p, blockquote {
+	font-size: 1.5rem;
+	}
 }
 	@media all and (max-width: 1000px) {
-		h1 {
-			font-size: 6em;
-		}
 		h2 {
-			font-size: 3em;
 			padding-bottom: 2rem;
 		}
-		p, ol, blockquote {
-			font-size: 1.1em;
-		}
 		.container-fluid {
-			padding: 5rem;
+			padding: 4rem;
+		}
+		p, blockquote {
+			font-size: 1rem;
 		}
 	}
 	@media all and (max-width: 576px) {
-		h1 {
-			font-size: 4em;
-		}
 		h2 {
-			font-size: 2em;
 			padding-bottom: 2rem;
-		}
-		p, ol, blockquote {
-			font-size: 1em;
 		}
 		.container-fluid {
 			padding: 2rem;
+		}
+		p, blockquote {
+			font-size: 1rem;
 		}
 	}
