@@ -15,9 +15,6 @@
 		<!-- Add latest fancyBox stylesheet -->
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.css"/>
 
-		<!-- fullPage.js CSS -->
-		<link rel="stylesheet" href="css/jquery.fullpage.min.css" type="text/css">
-
 		<!-- My Style Sheet -->
 		<link rel="stylesheet" href="css/style.css" type="text/css">
 
@@ -30,11 +27,8 @@
 				  integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
 				  crossorigin="anonymous"></script>
 
-		<!-- fullPage.js -->
-		<script src="script/jquery.fullpage.min.js" type="text/javascript"></script>
-
 		<!-- Add latest jQuery and fancyBox files -->
-<!--		<script src="//code.jquery.com/jquery-3.2.1.min.js"></script>-->
+		<script src="//code.jquery.com/jquery-3.2.1.min.js"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.js"></script>
 
 		<!-- jQuery Form, Additional Methods, Validate -->
@@ -63,9 +57,9 @@
 		<div id="fullpage">
 
 			<!-- begin welcome section -->
-			<div class="section welcome fp-section" data-anchor="welcome!">
+			<div class="section welcome fp-section" data-anchor="welcomeJs">
 				<div class="container-fluid">
-					<div class="row pb-5">
+					<div class="row welcome-title pb-5">
 						<h1>SAMANTHA <br> ANDREWS</h1>
 					</div>
 					<div class="row">
@@ -86,12 +80,12 @@
 			</div>
 
 			<!-- begin development section -->
-			<div class="section development fp-section" data-anchor="development!" id="development">
+			<div class="section development fp-section" data-anchor="developmentJs" id="development">
 				<div class="container-fluid">
 					<div class="row development-title">
 						<h1>DEVELOP&#45;<br>MENT</h1>
 					</div>
-					<div class="development-description pb-1">
+					<div class="development-description">
 						<p>Recent graduate of the Fullstack Web Development Bootcamp at CNM. Worked amongst a team to build a
 							mobile web application, ABQ Street Art, an interactive map that allows users to
 							search and locate
@@ -122,7 +116,7 @@
 			</div>
 
 			<!-- begin design section -->
-			<div class="section design fp-section" data-anchor="design" id="design">
+			<div class="section design fp-section" data-anchor="designJs" id="design">
 				<div class="container-fluid">
 					<div class="row">
 						<div class="col-lg-4 h-100 d-flex align-items-end">
@@ -155,7 +149,7 @@
 			</div>
 
 			<!-- begin writing section -->
-			<div class="section writing fp-section" data-anchor="writing" id="writing">
+			<div class="section writing fp-section" data-anchor="writingJs" id="writing">
 				<div class="container-fluid">
 					<div class="row writing-title">
 						<h1>WRITING</h1>
@@ -196,7 +190,7 @@
 								Care about something other than yourself.<br>
 								Make work that matters. <i class="fa fa-quote-right"></i>
 							</blockquote>
-							<p class="text-right citation pb-2">— James Victore, Designer</p>
+							<p class="text-right pb-4">— James Victore, Designer</p>
 							<a href="mailto:samantharaeandrews@gmail.com" target="_blank">
 								<i class="fas fa-envelope-square fa-2x"></i>
 							</a>

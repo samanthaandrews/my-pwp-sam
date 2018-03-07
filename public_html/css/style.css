@@ -25,7 +25,7 @@
 h1 {
 	font-family: "bebasregular", Arial, sans-serif;
 	color: black;
-	font-size: 9vw;
+	font-size: 10vw;
 }
 
 h2 {
@@ -52,12 +52,11 @@ strong {
 }
 
 .welcome, .development, .design, .writing, .contact {
-	height: 100vh;
+	min-height: 100vh;
 	display:block;
-	/*overflow:auto;*/
+	overflow:auto;
 }
 
-/* Styling everything in the welcome section */
 .welcome {
 	background-color: rgb(57, 113, 178);
 }
@@ -94,7 +93,6 @@ strong {
 	color: rgb(228, 130, 178);
 }
 
-/* Styling everything in the development section */
 .development {
 	background-color: rgb(240, 187, 31);
 }
@@ -111,7 +109,6 @@ strong {
 	padding-bottom: 3em;
 }
 
-/* Styling everything in the design section */
 .design {
 	background-color: rgb(255, 255, 231);
 }
@@ -124,17 +121,15 @@ strong {
 	margin-bottom: 7px;
 }
 
-/* Styling everything in the writing section */
 .writing {
 	background-color: rgb(223, 60, 57);
 }
 
 .article-link {
-	padding-left: 1rem;
-	padding-top: 1rem;
+	padding-left: 2rem;
+	padding-top: 2rem;
 }
 
-/* Styling everything in the contact section */
 .contact {
 	background-color: rgb(228, 130, 178);
 }
@@ -144,7 +139,7 @@ strong {
 }
 
 .blockquote {
-	padding-top: 1rem;
+	padding-top: 2rem;
 }
 
 .fa-twitter-square, .fa-behance-square, .fa-envelope-square, .fa-linkedin, .fa-instagram, .fa-medium-m, .fa-github-square {
@@ -161,10 +156,10 @@ strong {
 input[type=text], input[type=email], select, textarea {
 	width: 90%;
 	display: block;
-	padding: 1px;
+	padding: 3px;
 	border: 5px solid black;
 	box-sizing: border-box;
-	margin-top: 2px;
+	margin-top: 4px;
 	margin-bottom: 16px;
 	resize: vertical;
 	background-color: rgb(255, 255, 231);
@@ -175,40 +170,40 @@ input[type=submit], input[type=reset] {
 	background-color: black;
 	font-family: "bitstream_vera_sans_monoroman", monospace, serif;
 	color: rgb(255, 255, 231);
-	padding: 8px 10px;
+	padding: 7px 10px;
 	border: none;
 	cursor: pointer;
 	margin-top: 5px;
 }
 
-/*Media Queries*/
+/* Media queries */
 @media all {
+	.container-fluid {
+		padding: 5rem;
+	}
+	p, blockquote {
+		font-size: 1.5rem;
+	}
+}
+@media all and (max-width: 1000px) {
+	h2 {
+		padding-bottom: 2rem;
+	}
+	.container-fluid {
+		padding: 4rem;
+	}
+	p, blockquote {
+		font-size: 1rem;
+	}
+}
+@media all and (max-width: 576px) {
+	h2 {
+		padding-bottom: 2rem;
+	}
 	.container-fluid {
 		padding: 2rem;
 	}
+	p, blockquote {
+		font-size: 1rem;
+	}
 }
-	@media all and (max-width: 1000px) {
-		h2 {
-			padding-bottom: 2rem;
-		}
-		.container-fluid {
-			padding: 2rem;
-		}
-		p, blockquote, label {
-			font-size: 1rem;
-		}
-	}
-	@media all and (max-width: 576px) {
-		h2 {
-			padding-bottom: 2rem;
-		}
-		.container-fluid {
-			padding: 2rem;
-		}
-		p, label {
-			font-size: .7rem;
-		}
-		blockquote, .citation {
-			display: none;
-		}
-	}
