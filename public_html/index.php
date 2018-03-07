@@ -45,22 +45,16 @@
 		<!-- Google reCAPTCHA -->
 		<script src='https://www.google.com/recaptcha/api.js'></script>
 
-		<!-- Custom Javascript needed to initialize Full Page -->
-		<script src="script/script.js" type="text/javascript"></script>
-
 		<title>Samantha Andrews - Developer, Designer, Writer</title>
 	</head>
 
 	<body>
 
-		<!-- Outer wrapper for fullpage.js -->
-		<div id="fullpage">
-
 			<!-- begin welcome section -->
-			<div class="section welcome fp-section" data-anchor="welcomeJs">
+			<div class="welcome">
 				<div class="container-fluid">
-					<div class="row welcome-title pb-5">
-						<h1>SAMANTHA <br> ANDREWS</h1>
+					<div class="row">
+						<h1 class="pb-5">SAMANTHA <br> ANDREWS</h1>
 					</div>
 					<div class="row">
 						<div class="col-md-12 col-lg text-lg-center">
@@ -80,10 +74,10 @@
 			</div>
 
 			<!-- begin development section -->
-			<div class="section development fp-section" data-anchor="developmentJs" id="development">
+			<div class="development" id="development">
 				<div class="container-fluid">
 					<div class="row development-title">
-						<h1>DEVELOP&#45;<br>MENT</h1>
+						<h1 class="pb-3">DEVELOP&#45;<br>MENT</h1>
 					</div>
 					<div class="development-description">
 						<p>Recent graduate of the Fullstack Web Development Bootcamp at CNM. Worked amongst a team to build a
@@ -116,10 +110,10 @@
 			</div>
 
 			<!-- begin design section -->
-			<div class="section design fp-section" data-anchor="designJs" id="design">
+			<div class="design" id="design">
 				<div class="container-fluid">
 					<div class="row">
-						<div class="col-lg-4 h-100 d-flex align-items-end">
+						<div class="col-lg-4 d-flex align-items-end">
 							<h1>DESIGN</h1>
 						</div>
 						<div class="col-lg-8 align-items-center">
@@ -149,10 +143,10 @@
 			</div>
 
 			<!-- begin writing section -->
-			<div class="section writing fp-section" data-anchor="writingJs" id="writing">
+			<div class="writing" id="writing">
 				<div class="container-fluid">
 					<div class="row writing-title">
-						<h1>WRITING</h1>
+						<h1 class="pb-3">WRITING</h1>
 					</div>
 					<div class="row">
 						<p><strong>I write articles about creativity and productivity on my blog, <a
@@ -180,7 +174,7 @@
 			</div>
 
 			<!-- begin contact section -->
-			<div class="section contact fp-section" data-anchor="contactJs" id="contact">
+			<div class="contact" id="contact">
 				<div class="container-fluid">
 					<div class="row">
 						<div class="col-sm-12 col-md-12 col-lg-6">
@@ -242,6 +236,5 @@
 					</div>
 				</div>
 			</div>
-		</div>
 	</body>
 </html>

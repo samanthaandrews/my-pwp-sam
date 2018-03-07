@@ -30,7 +30,7 @@ h1 {
 
 h2 {
 	font-family: "bebasregular", Arial, sans-serif;
-	font-size: 5vh;
+	font-size: 6vh;
 }
 
 p, blockquote {
@@ -102,7 +102,6 @@ strong {
 	align-items: flex-end;
 	flex-direction: row-reverse;
 	text-align: right;
-	padding-bottom: 2em;
 }
 
 .development-description {
@@ -179,7 +178,7 @@ input[type=submit], input[type=reset] {
 /* Media queries */
 @media all {
 	.container-fluid {
-		padding: 5rem;
+		padding: 3rem;
 	}
 	p, blockquote {
 		font-size: 1.5rem;
@@ -188,9 +187,10 @@ input[type=submit], input[type=reset] {
 @media all and (max-width: 1000px) {
 	h2 {
 		padding-bottom: 2rem;
+		font-size: 4vh;
 	}
 	.container-fluid {
-		padding: 4rem;
+		padding: 3rem;
 	}
 	p, blockquote {
 		font-size: 1rem;
@@ -199,6 +199,7 @@ input[type=submit], input[type=reset] {
 @media all and (max-width: 576px) {
 	h2 {
 		padding-bottom: 2rem;
+		font-size: 4vh;
 	}
 	.container-fluid {
 		padding: 2rem;
