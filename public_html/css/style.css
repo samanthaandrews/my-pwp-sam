@@ -1,3 +1,4 @@
+/*custom fonts*/
 @font-face {
 	font-family: 'bebasregular';
 	src: url('../fonts/BEBAS___-webfont.eot');
@@ -22,6 +23,7 @@
 	font-style: normal;
 }
 
+/*global styles*/
 h1 {
 	font-family: "bebasregular", Arial, sans-serif;
 	color: black;
@@ -33,7 +35,7 @@ h2 {
 	font-size: 6vh;
 }
 
-p, blockquote {
+p, blockquote, form {
 	font-family: "bitstream_vera_sans_monoroman", monospace, serif;
 	color: black;
 }
@@ -57,6 +59,7 @@ strong {
 	overflow:auto;
 }
 
+/*welcome section*/
 .welcome {
 	background-color: rgb(57, 113, 178);
 }
@@ -93,42 +96,36 @@ strong {
 	color: rgb(228, 130, 178);
 }
 
+/*development section*/
 .development {
 	background-color: rgb(240, 187, 31);
 }
 
 .development-title, .writing-title {
 	display: flex;
-	align-items: flex-end;
 	flex-direction: row-reverse;
 	text-align: right;
 }
 
-.development-description {
-	padding-bottom: 3em;
-}
-
+/*design section*/
 .design {
 	background-color: rgb(255, 255, 231);
 }
 
 .portfolio-image {
-	height: 10rem;
+	width: 18vw;
 	border: 5px solid black;
 	padding: 5px;
 	margin-right: 7px;
 	margin-bottom: 7px;
 }
 
+/*writing section*/
 .writing {
 	background-color: rgb(223, 60, 57);
 }
 
-.article-link {
-	padding-left: 2rem;
-	padding-top: 2rem;
-}
-
+/*contact section*/
 .contact {
 	background-color: rgb(228, 130, 178);
 }
@@ -137,18 +134,9 @@ strong {
 	font-size: 1.5rem;
 }
 
-.blockquote {
-	padding-top: 2rem;
-}
-
 .fa-twitter-square, .fa-behance-square, .fa-envelope-square, .fa-linkedin, .fa-instagram, .fa-medium-m, .fa-github-square {
 	margin: 5px;
 	float: right;
-}
-
-.form {
-	padding-top: .5rem;
-	font-family: "bitstream_vera_sans_monoroman", monospace, serif;
 }
 
 /* Style inputs with type="text", select elements and textareas */
@@ -167,7 +155,6 @@ input[type=text], input[type=email], select, textarea {
 /* Style the submit button with a specific background color etc */
 input[type=submit], input[type=reset] {
 	background-color: black;
-	font-family: "bitstream_vera_sans_monoroman", monospace, serif;
 	color: rgb(255, 255, 231);
 	padding: 7px 10px;
 	border: none;
@@ -195,16 +182,12 @@ input[type=submit], input[type=reset] {
 	p, blockquote {
 		font-size: 1rem;
 	}
+	.portfolio-image {
+		width: 35vw;
+	}
 }
 @media all and (max-width: 576px) {
-	h2 {
-		padding-bottom: 2rem;
-		font-size: 4vh;
-	}
 	.container-fluid {
 		padding: 2rem;
-	}
-	p, blockquote {
-		font-size: 1rem;
 	}
 }
