@@ -128,6 +128,10 @@
 							<div class="row d-flex justify-content-end">
 								<a data-fancybox="gallery" href="images/pdf/krista-lockwood-branding.pdf"><img
 										src="images/krista-lockwood.jpg" class="portfolio-image"></a>
+								<a data-fancybox="gallery" href="images/pdf/i-will-not-tone-it-down-zine.pdf"><img
+										src="images/i-will-not-tone-it-down-zine.jpg" class="portfolio-image"></a>
+								<a data-fancybox="gallery" href="images/pdf/emergency-contraception.pdf"><img
+										src="images/emergency-contraception.jpg" class="portfolio-image"></a>
 							</div>
 							<div class="row d-flex justify-content-end">
 								<a data-fancybox="gallery" href="images/pdf/weekly-scraps-project.pdf"><img
