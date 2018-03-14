@@ -39,3 +39,25 @@ Your Milestone 1 passes at [Tier IV](https://bootcamp-coders.cnm.edu/projects/pe
 ### Edits &amp; Suggestions
 - Creating links to other regions on the same page is easily done using this method here: https://goo.gl/7FVeFx
 - [FontAwesome](https://fontawesome.com/) is a great resource for free iconography.
+
+
+## Final PWP Feedback
+
+The Good:
+Your site looks AWESOME!
+The contact form works properly.  
+The site is mobile responsive. 
+
+The Not so Good:
+There are 9 image tags missing the alt attribute causing errors  in the html.
+https://validator.w3.org/nu/?doc=https%3A%2F%2Fsamantha-andrews.com
+
+Overall, great job!
+Your grade is Tier III
+
+Your cumulative PWP score is 35/40.
+
+- Milestone 1: Tier IV
+- Milestone 2a: Tier IV
+- Milestone 2b: Tier IV
+- PWP Final: III
